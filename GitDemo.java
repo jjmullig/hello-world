@@ -44,7 +44,7 @@ public class GitDemo {
         
         while( num != 0 ) {
             double temp = num % 10;
-            factorialNumber = factorialNumber * 10 + temp;
+            newNumber = newNumber * 10 + temp;
             num /= 10;
         }
       
